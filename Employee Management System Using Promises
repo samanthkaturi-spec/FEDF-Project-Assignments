@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management System</title>
+</head>
+
+<body>
+
+<h2>Employee Management System</h2>
+
+<button onclick="getEmployee()">GET</button>
+<button onclick="addEmployee()">POST</button>
+<button onclick="updateEmployee()">PUT</button>
+<button onclick="deleteEmployee()">DELETE</button>
+
+<h3>Output :</h3>
+<p id="output"></p>
+
+<script>
+
+function getEmployee() {
+
+    document.getElementById("output").innerHTML =
+
+    "<h3>Employee List</h3>" +
+
+    "1. Name: Ajay <br>" +
+    "Salary: 70000 <br>" +
+    "Email: ajay@gmail.com <br><br>" +
+
+    "2. Name: Bhanu <br>" +
+    "Salary: 45000 <br>" +
+    "Email: bhanu@gmail.com";
+}
+
+function addEmployee() {
+
+    document.getElementById("output").innerHTML =
+
+    "<h3>Updated Employee List</h3>" +
+
+    "1. Name: Sree <br>" +
+    "Salary: 30000 <br>" +
+    "Email: sree@gmail.com <br><br>" +
+
+    "2. Name: Shiva <br>" +
+    "Salary: 45000 <br>" +
+    "Email: shiva@gmail.com <br><br>" +
+
+    "3. Name: Sai <br>" +
+    "Salary: 55000 <br>" +
+    "Email: sai@gmail.com";
+}
+
+function updateEmployee() {
+
+    document.getElementById("output").innerHTML =
+
+    "<h3>Updated Employee Details</h3>" +
+
+    "1. Name: Aradhya <br>" +
+    "Salary: 60000 <br>" +
+    "Email: adhya123@gmail.com <br><br>" +
+
+    "2. Name: Vishnu <br>" +
+    "Salary: 45000 <br>" +
+    "Email: vishnu@gmail.com <br><br>" +
+
+    "3. Name: Shiv <br>" +
+    "Salary: 55000 <br>" +
+    "Email: shiv@gmail.com";
+}
+
+function deleteEmployee() {
+
+    document.getElementById("output").innerHTML =
+
+    "<h3>Employee List After Delete</h3>" +
+
+    "1. Name: Krishna <br>" +
+    "Salary: 60000 <br>" +
+    "Email: radha123@gmail.com <br><br>" +
+
+    "2. Name: Brahma <br>" +
+    "Salary: 55000 <br>" +
+    "Email: vishnu@gmail.com";
+}
+
+</script>
+
+</body>
+</html>
